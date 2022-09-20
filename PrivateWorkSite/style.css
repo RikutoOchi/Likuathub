@@ -1,4 +1,8 @@
-body
+body {
+    background-color: whitesmoke;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
 /*以下*/
 .btn,
@@ -53,6 +57,7 @@ header {
     display: inline-block;
     height: 100%;
     color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .g_navi {
@@ -61,8 +66,7 @@ header {
     text-align: center;
 }
 
-/*その他と主な共通部分は省略*/
-
+/*ボタンCSS*/
 a.btn-flat {
     overflow: hidden;
     padding: 1.5rem 6rem;
@@ -94,6 +98,8 @@ a.btn-flat:hover:before {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
 }
+
+/*以上ボタンCSS*/
 
 .news {
     text-align: center;
@@ -146,6 +152,25 @@ a.btn-flat:hover:before {
     padding-left: 5px;
 }
 
-article {
-    padding: 4px;
+.Article {
+    padding-top: 3%;
+    text-align: center;
+    color: black;
+}
+
+.Article .Article_Title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Article .Article_Text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Article .Article_Photo {
+    text-align: center;
+}
+
+.Article .Article_Photo img {
+    width: 60%;
+    height: auto;
 }
